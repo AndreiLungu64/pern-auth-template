@@ -6,12 +6,39 @@
 
 .leftPanel {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   flex: var(--left-ratio);
   background-color: var(--foreground);
 }
 
 .rightPanel {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   flex: var(--right-ratio);
   background-color: var(--background);
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoInitial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: var(--primary-foreground);
+  color: var(--primary);
+  font-size: var(--text-md);
+  font-weight: var(--font-bold);
+  border-radius: 2rem;
+}
+
+.companyName {
 }

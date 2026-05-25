@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: var(--text-sm);
+  font-weight: var(--font-medium);
+  color: var(--primary);
+}
+
+.input::placeholder {
+  font-size: var(--text-base);
+  font-weight: var(--font-normal);
+}
+
+input {
+  background-color: var(--secondary);
+  color: var(--foreground);
+  height: 2.6rem;
+  padding: 0 12px;
+  border-radius: 0.25rem;
+  border: 0.0625rem solid var(--border);
+}
+
+input:focus {
+  outline: none !important;
+}
