@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+
+.leftPanel {
+  display: flex;
+  flex: var(--left-ratio);
+  background-color: var(--foreground);
+}
+
+.rightPanel {
+  display: flex;
+  flex: var(--right-ratio);
+  background-color: var(--background);
+}
