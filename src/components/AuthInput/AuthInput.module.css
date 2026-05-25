@@ -14,7 +14,7 @@
   font-weight: var(--font-normal);
 }
 
-input {
+.input {
   background-color: var(--secondary);
   color: var(--foreground);
   height: 2.6rem;
@@ -23,6 +23,7 @@ input {
   border: 0.0625rem solid var(--border);
 }
 
-input:focus {
-  outline: none !important;
+.input:focus {
+  border: 0.0625rem solid var(--border);
+  outline-offset: 1px;
 }

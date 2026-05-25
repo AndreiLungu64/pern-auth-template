@@ -14,7 +14,7 @@ export function AuthLayout({ children, leftRatio = 2, rightRatio = 3, }: { child
             </div>
         </div>
         <div className={`${styles.rightPanel}`} style={{ '--right-ratio': rightRatio } as React.CSSProperties}>
-            <div>{children}</div>
+            <div className={styles.formContainer}>{children}</div>
         </div>
     </div>
 }

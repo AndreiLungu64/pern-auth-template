@@ -16,7 +16,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   flex: var(--right-ratio);
   background-color: var(--background);
 }
@@ -40,5 +39,10 @@
   border-radius: 2rem;
 }
 
-.companyName {
+.formContainer {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
 }
