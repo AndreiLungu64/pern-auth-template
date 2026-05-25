@@ -11,7 +11,7 @@ export type RegisterFormState = {
 export function Register() {
     const [form, setForm] = useState({ username: "", email: "", password: "" });
 
-    const onChange = (field: keyof RegisterFormState, value: string) => {
+    const onChange = (field: string, value: string) => {
         setForm(prev => ({ ...prev, [field]: value }));
     }
 

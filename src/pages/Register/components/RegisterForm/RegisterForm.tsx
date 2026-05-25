@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 
 
-export function RegisterForm({ form, onChange }: { form: RegisterFormState, onChange: (field: keyof RegisterFormState, value: string) => void }) {
+export function RegisterForm({ form, onChange }: { form: RegisterFormState, onChange: (field: string, value: string) => void }) {
     return <div className={styles.container}>
         <h2 className={styles.title}>Create an account</h2>
         <p className={styles.subtitle}> Enter your information to get started</p>
